@@ -1,0 +1,361 @@
+<head>
+    <title>MARRIAGE INVIT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="html,css,js">
+    <meta name="description" content="free class of the html  ,css">
+    <meta name="author" content="naveen kumar" <meta http-equiv="refresh" content="40">
+    <link rel="stylesheet" href="bootstrap 3.0/dist/css/adminlte.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-shadow: none;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        p.text {
+            font-family: "Dancing Script", cursive;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+            justify-content: center;
+            width: 800px;
+            font-size: large;
+
+        }
+
+        p.text::first-letter {
+            font-size: xx-large;
+            color: brown;
+            font-weight: bolder;
+            text-transform: capitalize;
+
+        }
+
+        .text::first-line {
+            color: blueviolet;
+            text-shadow: red;
+            transition: all 1s ease;
+            transform: scaleX(12);
+        }
+
+        div.bgc {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-clip: border-box;
+            background-image: url("IMAGES/wedding/outframe2.jpg");
+
+        }
+
+        div.bgc1 {
+            background-image: url("IMAGES/wedding/flowerframe.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        img.bgc2 {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            width: 180px;
+            left: -20px;
+            opacity: 0.7;
+            border: 5px solid transparent;
+            image-rendering: pixelated;
+            border-radius: 100px;
+        }
+
+        img.round {
+            height: 350px;
+            width: 350px;
+            border-radius: 100px;
+            border-image: space;
+            object-fit: cover;
+            object-position: center;
+            border: 5px solid black;
+
+        }
+
+        img.sm {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            object-position: top;
+            border-radius: 100px;
+            justify-content: center;
+
+        }
+
+        img.lg {
+            width: 350px;
+            height: 350px;
+            object-position: top;
+            border-radius: 100px;
+            justify-content: center;
+        }
+
+        div.pos {
+            position: relative;
+            margin-top: 300px;
+            display: inline-block;
+            text-decoration: dotted;
+            text-align: center;
+            justify-self: center;
+            font-size: larger;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: 600;
+            color: rgb(205, 239, 35);
+
+        }
+
+        div.frame {
+            position: absolute;
+            display: inline-flex;
+            top: 270px;
+            right: 300px;
+            justify-content: center;
+
+        }
+
+        .text1 {
+            font-family: "Lobster", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: large;
+            color: rgba(242, 102, 78, 0.823);
+            text-transform: uppercase;
+            transition: all 2s ease;
+            text-decoration: wavy;
+            text-rendering: optimizeSpeed;
+        }
+
+        .text1::first-letter {
+            font-weight: 900;
+            font-size: xx-large;
+            color: rgba(27, 114, 105, 0.574);
+        }
+        p.text3{
+            text-align: center;
+            text-transform: capitalize;
+            font-family: "Lobster", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            color: floralwhite;
+            justify-content:space-around ;
+            font-size: xx-large;
+        }
+        .hidden{
+            display: none;
+            
+        }
+        .active{
+            visibility: visible;
+            cursor: pointer;
+            transition: all 2s ease;
+            
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="container-fluid bgc py-2 px-3 my-3">
+        <div class="container-fluid my-5 ">
+
+            <div class=" sm row pos d-flex justify-content-center ">
+                <span>WEDDING INVITATION</span>
+            </div>
+            <div class="container-sm my-5">
+                <div class="sm row d-flex justify-content-center  p-1 align-items-center  ">
+                    <div class="col-3 align-self-end  d-flex justify-content-center ">
+                        <img class="sm" src="IMAGES/wedding/bocay.jpg" alt="">
+                    </div>
+                    <div class="col-6 align-self-start  justify-content-center d-flex">
+                        <img class="img-sm round my-5" src="IMAGES/wedding/couples.jpg" alt="no img">
+                    </div>
+                    <div class="col-3 align-self-end  justify-content-center">
+                        <img class="sm" src="IMAGES/wedding/tie.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container d-flex justify-content-center MY-5 pos">
+                <span>Warm Welcom To All.....!</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- description -->
+    <div class="row text-align-center ">
+
+        <div class="col text-center text-dark justify-content-center d-flex  ">
+            <p class="text">“request the honour of your presence on the wedding of our son/daughter” “request the
+                pleasure of your
+                company on the wedding of our son/daughter” “invite you at the marriage of our son/daughter” “would love
+                for you to join them on the wedding of our son/daughter” “would be delighted to have you join us on the
+                wedding ...</p>
+        </div>
+    </div>
+
+    <!-- bride vs groom -->
+    <div class="container-fluid position-relative bg-secondary p-1 my-5 position-relative">
+        <div class="row  m-1">
+            <img class="img-thumbnail" src="IMAGES/wedding/welcome flower.jpg" alt="no img">
+        </div>
+    </div>
+
+    <div class="container-sm " style="width: 700px;margin-right: 100px;position: relative;margin-top: -800px;">
+        <div class="row my-5">
+            <div class="col  d-block text-center">
+                <p class="text1">NAVEEN KUMAR</p>
+                <p class="text-dark">VS</p>
+                <p class="text1">SAFEENA</p>
+            </div>
+
+        </div>
+        <div class="row  d-flex justify-content-center">
+            <img class="sm" src="IMAGES/wedding/DSC03336.JPG" alt="no img" style="margin-right: -30px;">
+            <img class="sm" src="IMAGES/wedding/jodi2.avif" alt="no-img" style="object-position: left;">
+            <img class="sm" src="IMAGES/wedding/saf1.jpg" alt="no-img" style="margin-left: -40px;">
+        </div>
+        <div class="row my-5 ">
+            <div class="col px-3 ">
+                <span
+                    style="margin-left: 48px;color: rgba(248, 11, 192, 0.999);font-family: Georgia, 'Times New Roman', Times, serif;">BE.SOFTWARE
+                    ENGG
+                </span>
+            </div>
+            <div class="col px-3">
+                <span
+                    style="margin-left: 75px;color: rgba(248, 11, 192, 0.999);font-weight: 400;font-family: Georgia, 'Times New Roman', Times, serif;">BBA.BUSSINESS
+                    ANALYST
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- cards -->
+    <div class="container-sm active" id="clickDiv" onclick="toggleDivs()">
+        <div class="row position-relative d-flex justify-content-center">
+            <img src="IMAGES/wedding/thavil.jpg" alt="no-img" style="width: 800px;height: 500px; margin-top: 220px;margin-left:-300px;border-radius: 40%;">
+            <span style="display: block;margin-top: 750px;margin-left: -450px;font-size: large;font-family: Georgia, 'Times New Roman', Times, serif;font-weight: 900;">Invitaion Card</span>
+        </div>
+    </div>
+
+    <!-- invite details -->
+    <div class="container hidden position-relative" id="contentDiv" style="margin-top: 260px;">
+        <div class="row d-flex justify-content-center position-absolute ">
+            <img src="IMAGES/wedding/card.jpg" alt="noimg" style="width: 1150px;height:1250px;">
+        </div>
+        <div class="row-sm  d-flex justify-content-center " style="position: absolute;margin-top: 170px;margin-left: 0px;" >
+           <div class="col-6 ">
+            <p class="text3 ">
+               <span>Wedding</span> 
+                <br>
+                <span>
+                    Sharmila  
+                </span>
+                <br>
+                <span>
+                    earnestly seek your blessings
+                    on the auspicious occasion of the wedding of their daughter
+                </span>
+                <br><br>
+               <span>SAFEENA</span> 
+               <br>
+                <small>with</small>
+                <br>
+                <img src="IMAGES/wedding/hands.jpg" style="width: 150px;height: 150px;border-radius: 100%;" alt="no-img">
+                <br>
+               <span>NAVEEN</span> 
+               <br><br>
+               <span>
+                (s/o Mr. Shanmugam  &  Mrs. S.Devi)
+               </span> 
+               <br>
+               <span>
+                On Monday, 12th November 2024
+                as per programme
+               </span>
+               <br>
+               <span>
+                Looking forward to hostessing you all
+                Raghav Rai Dhuria
+                &
+                Well-Wishers
+                from Maternal & Paternal side
+               </span> 
+    
+            </p>
+            <audio id="audioPlayer" src="IMAGES/wedding/audio/Mayiliragae-MassTamilan.com-[AudioTrimmer.com].mp3" controls autoplay loop volume="0.5" ></audio>
+           </div>
+    
+        </div>
+        
+    </div>
+
+
+<script>
+        function toggleDivs() {
+            var clickDiv = document.getElementById("clickDiv");
+            var contentDiv = document.getElementById("contentDiv");
+            var audio = document.getElementById("audioPlayer");
+            
+            clickDiv.addEventListener('click',()=>{
+            
+            clickDiv.classList.remove('active')
+            clickDiv.classList.add("hidden");
+            contentDiv.classList.remove("hidden");
+            contentDiv.classList.add("active");
+
+            if( clickDiv.contains('active')){
+                audio.play();
+            }
+            });
+            document.addEventListener('click',closeDivs);
+        }
+
+        
+        function closeDivs(event) {
+            var clickDiv = document.getElementById("clickDiv");
+            var contentDiv = document.getElementById("contentDiv");
+            var audio = document.getElementById("audioPlayer");
+
+            // Check if the click is outside the divs
+            if (!clickDiv.contains(event.target) && !contentDiv.contains(event.target)) {
+                clickDiv.classList.remove("hidden");
+                clickDiv.classList.add("active");
+                contentDiv.classList.remove("active");
+                contentDiv.classList.add("hidden");
+
+                
+                // Remove the event listener after hiding the divs
+                document.removeEventListener("click", closeDivs);
+            }
+        }
+
+
+
+</script>
+
+</body>
+
+</html>
